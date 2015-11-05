@@ -1,24 +1,26 @@
+/* Universal Selector */
 * {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	color: #FFFFFF;
 }
-
 body {
 	background-color:#282828;
 }
-
 h1 {
 	margin-top: 0px;
 }
 
+/* Link styling */
 a:link {
 	text-decoration: none;
 }
-
+	/* Hover link styling */
 a:hover {
 	text-shadow: 2px 2px cyan;
 	font-weight: bold;
 }
+
+/* Main header styling */
 #header {
 	background-color: #363636;
 	border: 1px solid cyan;
@@ -38,7 +40,7 @@ a:hover {
 }
 
 #title {
-	font-size: 50px;	
+	font-size: 50px;
 }
 
 #navbar li {
@@ -48,16 +50,18 @@ a:hover {
 	text-align: center;
 }
 
+/* Main content styling */
 #content {
 	width: 1280px;
 	height: 880px;
 	background-color: #363636;
 	border-radius: 5px;
 	border: 1px solid cyan;
-	margin: 0 auto;	
-	
+	margin: 0 auto;
+
 }
 
+/* Body Margins */
 .bodymargin {
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -74,6 +78,8 @@ a:hover {
 	border-radius: 15px;
 	background-color: #2A2A2A;
 }
+
+/* Float stylings */
 .floatRight {
 	float: right;
 	padding-top: 15px;
@@ -82,8 +88,10 @@ a:hover {
 	padding-bottom: 15px;
 }
 .floatLeft {
-	float: left;	
+	float: left;
 }
+
+/* Border styling */
 .roundborder {
 	border-radius: 20px;
 }
